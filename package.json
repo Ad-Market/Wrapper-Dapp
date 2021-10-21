@@ -1,0 +1,23 @@
+{
+  "HOMEPAGE" :"",
+  "name": "wbbt-dapp",
+  "version": "1.0.0",
+  "description": "wBBT Dapp Wrapper beta",
+  "main": "main.js",
+  "scripts": {
+    "test": "tester"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BuyBackGit/Wrapper-Dapp.git"
+  },
+  "keywords": [
+    "Wrapper-Dapp"
+  ],
+  "author": "BuyBackGit",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BuyBackGit/Wrapper-Dapp/issues"
+  },
+  "homepage": "https://github.com/BuyBackGit/Wrapper-Dapp#readme"
+}
