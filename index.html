@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+
+<head>
+	<meta charset="UTF-8" />
+	<title>BBT SIMPLEDAPP </title>
+	<link rel="icon" type="image/svg" href="https://static.wixstatic.com/media/3a36c3_486e0099ab4642bf820ecf045fd8cd5b~mv2.png/v1/fill/w_711,h_711,al_c,q_90,usm_0.66_1.00_0.01/BuyBack%20Astronaut_edited.webp />
+    <link
+      rel= " stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" />
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css"
+		rel="stylesheet" />
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.14.1/css/mdb.min.css" rel="stylesheet" />
+	<link rel="stylesheet" href="index.css" type="text/css" />
+	<script src="https://cdn.jsdelivr.net/npm/web3@latest/dist/web3.min.js"></script>
+</head>
+
+<body>
+
+	<main class="container-fluid">
+
+
+		<section>
+			<div class="row">
+
+				<div class="col-xl-4 col-lg-6 col-md-12 col-sm-12 col-12 d-flex align-items-stretch">
+					<div class="card full-width">
+						<div class="card-body">
+							<h4 class="card-title">
+							</h4>
+							<div id="logo-container justify-content-center">
+								<img id="mm-logo"
+									src="https://static.wixstatic.com/media/3a36c3_486e0099ab4642bf820ecf045fd8cd5b~mv2.png/v1/fill/w_711,h_711,al_c,q_90,usm_0.66_1.00_0.01/BuyBack%20Astronaut_edited.webp" />
+							</div>
+
+							<button class="btn btn-primary btn-lg btn-block mb-3" id="bbt-logo">
+								ADD (BBT) TO METAMASK
+							</button>
+
+						</div>
+						<div class="btn btn-primary btn-lg btn-block mb-3" id="">
+							BBT 👉 wBBT
+							<div class="form-floating">
+								<p class="row d-flex justify-content-center">
+									<input class="small-input" value="" id="swaptowbbtvalue" type="number"
+										placeholder="swaptowbbtvalue">
+								</p>
+								<button class="btn btn-primary btn-lg btn-block mb-3" id="swaptowbbt">
+									SWAP TO wBBT
+								</button>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-xl-4 col-lg-6 col-md-12 col-sm-12 col-12 d-flex align-items">
+					<div class="card full-width">
+						<div class="card-body">
+							<h4 class="card-title">
+							
+							
+								<p class="row d-flex justify-content-center">
+									BBT WRAPPER
+								</p>
+								</h4>
+								<p  id="logo-container justify-content-center">
+									<video width="100%" height="100%" autoplay muted loop >
+										<source src="000.mp4" type="video/mp4"   
+								
+									
+									<p class= "card-body">
+										<center>BBT Wrapper is a simple dapp that allows you to exchange your BBT tokens for wBBT for free and also the other way around. You only have to connect the metamask wallet to the dapp. In this first beta phase, whenever the user wants to convert BBT to wBBT, 2 transactions will always be necessary, 1 to approve the wBBT contract and the 2nd to carry out the exchange. For better experience, please add both tokens to metamask by clicking "Add(BBT) & Add (wBBT)" buttons. Have a better experience handling both tokens.<p>wBBT is the no-fee version of BBT</p>  	</center>	
+										<p></p>
+										<a class="row d-flex justify-content-center" href="https://www.buybacktoken.net/">Visit BuyBackToken.net</a>
+									</p>									
+
+									</p>	
+								</h5>
+									 
+									
+								</p>
+							
+						</div>
+					</div>
+				</div>
+
+				<div class="col-xl-4 col-lg-6 col-md-12 col-sm-12 col-12 d-flex align-items-stretch">
+					<div class="card full-width">
+						<div class="card-body">
+							<h4 class="card-title">
+							</h4>
+							<div id="logo-container justify-content-center">
+								<img id="mm-logo"
+									src="https://static.wixstatic.com/media/3a36c3_486e0099ab4642bf820ecf045fd8cd5b~mv2.png/v1/fill/w_711,h_711,al_c,q_90,usm_0.66_1.00_0.01/BuyBack%20Astronaut_edited.webp" />
+							</div>
+
+							<button class="btn btn-primary btn-lg btn-block mb-3" id="wbbt-logo">
+								ADD (wBBT) TO METAMASK
+							</button>
+
+						</div>
+						<div class="btn btn-primary btn-lg btn-block mb-3" id="">
+							wBBT 👉 BBT
+							<div class="form-floating">
+								<p class="row d-flex justify-content-center">
+									<input class="large-input" value="" id="swaptobbtvalue" type="number"
+										placeholder="swaptobbtvalue">
+								</p>
+								<button class="btn btn-primary btn-lg btn-block mb-3" id="swaptoBBT">
+									SWAP TO BBT
+								</button>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</section>
+
+
+		<button class="btn btn-primary btn-lg btn-block mb-3" >
+		</button>
+
+		<p class="row d-flex justify-content-center">
+			Your Wallet address -<span id="wallet-address"></span>
+		</p>
+
+		<p class="row d-flex justify-content-center">
+			wBBT Dapp Wrapper beta v0.1
+		</p>
+	</main>
+
+	<script src="main.js"></script>
+
+
+
+</body>
+
+</html>
