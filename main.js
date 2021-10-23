@@ -25,7 +25,7 @@ getaprovebbt = async () => {
     const ADDRESS = "0xB3670F91E86a96EeDA0c75b1573035A6277226fb"; //ABI2 = BBT SMARTCONTRACT
     contract = new web3.eth.Contract(ABI2, ADDRESS);
     alert('🚨 YOUR BBT TOKENS WILL NOT BE SPEND 🚨');
-	let wbbt = "0x8408Ec537b6E22086c6C01579466a2ca0d46A3dE"
+	let wbbt = "0x4EEAB061A846971467D746FfA8cB7EBD95B08342"
     await contract.methods.approve(wbbt, "10000000000000000000000000000").send({from: account })
 }
 
@@ -40,7 +40,7 @@ getswaptowbbt = async () => {
 	const ADDRESSx = "0xB3670F91E86a96EeDA0c75b1573035A6277226fb"; //ABI2 = BBT SMARTCONTRACT
 	contract = new web3.eth.Contract(ABI2, ADDRESSx);
     alert('🚨 YOUR BBT TOKENS WILL NOT BE SPEND 🚨');
-	let wbbt = "0x8408Ec537b6E22086c6C01579466a2ca0d46A3dE"
+	let wbbt = "0x4EEAB061A846971467D746FfA8cB7EBD95B08342"
     await contract.methods.approve(wbbt, amount2).send({from: account })
 
 	
@@ -119,9 +119,9 @@ try {
 }
 getwbbtlogo = async () => {
     const tokenAddress = '0x4EEAB061A846971467D746FfA8cB7EBD95B08342';
-const tokenSymbol = 'wBBT Token';
-const tokenDecimals = 18;
-const tokenImage = 'https://ipfs.io/ipfs/QmdCkauehT4zFL3kHnj1dJqJyDDePRYpj9NsM3d5QHpJBP';
+    const tokenSymbol = 'wBBT Token';
+    const tokenDecimals = 18;
+    const tokenImage = 'https://ipfs.io/ipfs/QmdCkauehT4zFL3kHnj1dJqJyDDePRYpj9NsM3d5QHpJBP';
 
 try {
   // wasAdded is a boolean. Like any RPC method, an error may be thrown.
@@ -164,4 +164,3 @@ if(document.querySelector('#bbt-logo') != null){
 if(document.querySelector('#wbbt-logo') != null){
     document.querySelector('#wbbt-logo').onclick = getwbbtlogo;    
 } 
-
